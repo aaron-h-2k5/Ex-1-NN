@@ -1,7 +1,6 @@
-<H3>Aaron H</H3>
-<H3>212223040001</H3>
+<H3>Name: Aaron H</H3>
+<H3>Register No: 212223040001</H3>
 <H3>EX. NO.1</H3>
-<H3>06.05.2025</H3>
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
 
 ## AIM:
@@ -39,9 +38,8 @@ STEP 6:Splitting the data into test and train<BR>
 ##  PROGRAM:
 ```
 # Import necessary libraries
-import pandas as pd      
-import io              
-from sklearn.preprocessing import StandardScaler, MinMaxScaler 
+import pandas as pd                  
+from sklearn.preprocessing import MinMaxScaler 
 from sklearn.model_selection import train_test_split         
 
 # Load the dataset from a CSV file
